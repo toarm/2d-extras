@@ -6,7 +6,7 @@ using UnityEngine;
 namespace UnityEditor
 {
     [CreateAssetMenu(fileName = "Prefab brush", menuName = "Brushes/Prefab brush")]
-    [CustomGridBrush(false, true, false, "Prefab Brush")]
+    [CustomGridBrush(true, false, false, "Prefab Brush")]
     public class PrefabBrush : GridBrush
     {
         private const float k_PerlinOffset = 100000f;
